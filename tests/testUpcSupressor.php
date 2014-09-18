@@ -2,7 +2,7 @@
 
 // Load Product Validator
 // Recommended: Use Auto Loader
-require_once __DIR__ . '/../ProductValidator.class.php';
+require_once __DIR__ . '/../ProductValidator.php';
 use ProductValidator\UpcEValidator as UpcEValidator;
 
 $upcE6Expanded = '065100004327';
