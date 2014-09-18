@@ -2,12 +2,6 @@
 
 namespace ProductValidator;
 
-require_once __DIR__ . '/UpcValidator/UpcValidator.class.php';
-require_once __DIR__ . '/UpcValidator/UpcEValidator.class.php';
-require_once __DIR__ . '/UpcValidator/UpcEExpander.class.php';
-require_once __DIR__ . '/EanValidator/EanValidator.class.php';
-require_once __DIR__ . '/IsbnValidator/IsbnValidator.class.php';
-
 use ProductValidator\UpcValidator as UpcValidator;
 use ProductValidator\UpcEValidator as UpcEValidator;
 use ProductValidator\EanValidator as EanValidator;

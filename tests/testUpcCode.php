@@ -2,7 +2,7 @@
 
 // Load Product Validator
 // Recommended: Use Auto Loader
-require_once __DIR__ . '/../ProductValidator.class.php';
+require_once __DIR__ . '/../ProductValidator.php';
 
 $upcA = '748196000441';
 $upcE6Expanded = '065100004327'; // 654321 UPC-E
